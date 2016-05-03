@@ -18,7 +18,7 @@ export default class AtvImg extends Component {
     container: {},
     shine: {
       background: 'none',
-      transform: 'none'
+      transform: 'none',
     },
     layers: [],
   };
@@ -83,14 +83,14 @@ export default class AtvImg extends Component {
       container: {},
       shine: {
         background: 'none',
-        transform: 'none'
+        transform: 'none',
       },
       layers: [],
     });
   }
 
   renderShadow = () => (
-    <div /*style={{ ...styles.shadow, ...(this.state.isOnHover ? styles.shadowOnHover : {}) }}*/ />
+    <div />
   );
 
   renderLayers = () => (
